@@ -1,0 +1,84 @@
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    color: purple;
+    background-color: aqua;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    width: 200px;
+
+} 
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    color: aqua;
+} 
+
+.container{
+    background-color: aquamarine;
+    padding: 10px;
+    /* width: 90vw;
+    margin-left: 2vw; */
+}
+
+.display img{
+    width: 100px;
+    height: 100px;
+}
+
+.habit img{
+    width: 70px;
+    height: auto;
+}
+.header{
+    display: flex;
+    gap: 20%;
+    background-color: rgba(245, 8, 245, 0.466);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.inputs input{
+    padding: 10px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: yellow;
+    /* text-align: center; */
+}
+
+.habits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid red;
+    gap: 20px;
+    padding: 5px;
+}
+
+.habit{
+    background: aqua;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    border: 5px;
+}
+.habit.hover{
+    cursor: pointer;
+}

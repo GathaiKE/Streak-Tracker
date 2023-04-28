@@ -1,0 +1,32 @@
+{
+    "habit": [
+    {
+        "habitName": "Coding",
+        "habitImg": "url(./images/code-slash-outline",
+        "streakTime": 6,
+        "streakStart": "29/06/2018",
+        "id": 1
+    },
+    {
+        "habitName": "Reading",
+        "habitImg": "url(./images/book-outline.svg",
+        "streakTime": 1,
+        "streakStart": "29/06/2018",
+        "id": 1
+    },
+    {
+        "habitName": "Saving",
+        "habitImg": "url(./images/code-slash-outline",
+        "streakTime": 3,
+        "streakStart": "29/06/2018",
+        "id": 1
+    },
+    {
+        "habitName": "Working Out",
+        "habitImg": "url(./images/code-slash-outline",
+        "streakTime": 2,
+        "streakStart": "29/06/2018",
+        "id": 1
+    }
+    ]
+    }
